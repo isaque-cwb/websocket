@@ -1,0 +1,137 @@
+:root {
+  font-size: 62.5%;
+  /* 1 rem = 10px*/
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  outline: none;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  padding: 0.5rem;
+  margin-top: 14rem;
+}
+
+button {
+  height: 3rem;
+  background: #177912;
+  border: none;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  margin-bottom: 1.08rem;
+
+}
+
+button:Hover {
+  background: #229e1c;
+  transition: 0.3s ease-in;
+  transform: scale(1.04);
+  border: 1px solid #0b4b08;
+}
+
+#select_room {
+  margin-top: 1.08rem;
+  height: 3rem;
+  padding: 0.2rem;
+  border: 1px solid #546a7b;
+  outline: none;
+  border-radius: 0.5rem;
+  margin-top: 3rem;
+}
+
+input {
+  width: 40rem;
+  height: 2rem;
+  padding: 0.2rem;
+  border: 1px solid #59A5D8;
+  outline: none;
+  background: #fff;
+  border-radius: 0.5rem;
+
+}
+
+.row {
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 1.08rem;
+  margin-bottom: 1.08rem;
+
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #386FA4;
+  border-radius: 0.5rem;
+}
+
+
+#message_input {
+  margin-top: 5rem;
+}
+
+#logout {
+  cursor: pointer;
+  background: #386FA4;
+  border: 1px solid #133C55;
+
+}
+
+#logout:hover {
+  opacity: 0.895;
+  border: 1px solid #133C55;
+  background: #386FA4;
+  transition: 0.3s;
+  transform: scale(1.04)
+}
+
+.form-label {
+  font-size: 1.5rem;
+  padding-bottom: 0.3rem;
+}
+
+#username {
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+.smal-text {
+  font-size: 1rem;
+}
+
+#messages {
+
+  padding: 0.3rem
+}
+
+#container-new-message {
+  overflow-y: auto;
+  background: #91E5F6;
+  border-radius: 0.5rem;
+  border: 1px solid #386FA4;
+  height: 10rem;
+}
+
+.message-date {
+  font-size: 1.08rem;
+  font-style: italic;
+}
+
+.bt-login {
+  margin-top: 3rem;
+}
+
+#user-login {
+  margin-top: 3rem;
+}
