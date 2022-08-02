@@ -15,6 +15,7 @@ form {
   margin: 1rem;
   padding: 0.5rem;
   margin-top: 14rem;
+  justify-content: center;
 }
 
 button {
@@ -74,6 +75,9 @@ input {
   align-items: center;
   border: 2px solid #386FA4;
   border-radius: 0.5rem;
+  max-width: 50%;
+  min-width: 45rem;
+
 }
 
 
